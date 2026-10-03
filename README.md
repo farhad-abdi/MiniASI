@@ -56,7 +56,7 @@ $$
 In standard attention, the score between query $i$ and key $j$ is a dot product. In **holonomy attention**, the score is the trace of the holonomy:
 
 $$
-\text{score}_{ij} = \operatorname{Tr}\left( U_{i \leftarrow j} \right) .
+\text{score}_{ij} = \mathrm{Tr}\left( U_{i \leftarrow j} \right) .
 $$
 
 The trace is a gauge‑invariant scalar that measures the oriented volume transported along the path. The attention weights are obtained by a softmax over the keys:
