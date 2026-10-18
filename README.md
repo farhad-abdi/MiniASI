@@ -19,7 +19,7 @@ $$
 \omega^\psi = \sum_{i=1}^n \psi_i(x) \, dx^i .
 $$
 
-For matrix‑valued forms, we consider the Lie algebra $\mathfrak{sl}(d)$ (traceless matrices). A **matrix‑valued neural 1‑form** is a map $\mathcal{A} : \mathbb{R}^n \to \mathfrak{sl}(d)$, where each component is an MLP. In practice, we restrict to a nilpotent subalgebra $\mathfrak{n}_+$ (strictly upper‑triangular matrices) for stability and interpretability.
+For matrix‑valued forms, we consider the Lie algebra $\mathfrak{sl}(d)$ (traceless matrices). A **matrix‑valued neural 1‑form** is a map $\mathcal{A} : \mathbb{R}^n \to \mathfrak{sl}(d)$, where each component is an MLP. 
 
 ---
 
